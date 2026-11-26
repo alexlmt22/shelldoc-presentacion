@@ -1,3 +1,21 @@
+#Quarto/Reveal.js
+presentacion.html
+*_files/
+.quarto/
+
+#Python
 __pycache__
 *.py[cod]
-.quarto
+*.egg-info/
+build/
+dist/
+
+#Entornos virtuales
+.venv/
+venv/
+env/
+
+#Sistema Operativo
+.DS_Store
+Thumbs.db
+
