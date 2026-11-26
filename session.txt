@@ -1,0 +1,49 @@
+Script started on 2026-11-25 20:50:08-05:00 [TERM="linux" TTY="/dev/tty1" COLUMNS="160" LINES="50"]
+[?2004halema@server:~/proyecto_shell$ whoami[K[K[K[K[K[Kpwd
+[?2004l/home/alema/proyecto_shell
+[?2004halema@server:~/proyecto_shell$ whoami
+[?2004lalema
+[?2004halema@server:~/proyecto_shell$ uname -sr
+[?2004lLinux 7.0.0-44-generic
+[?2004halema@server:~/proyecto_shell$ date
+[?2004lmié 25 nov 2026 20:50:51 -05
+[?2004halema@server:~/proyecto_shell$ echo"Hola [K[K[K[K[K[K "Hola Linux"
+[?2004lHola Linux
+[?2004halema@server:~/proyecto_shell$ ls -la
+[?2004ltotal 32
+drwxrwxr-x  2 alema alema  4096 Nov 25 20:50 [0m[01;34m.[0m
+drwxr-x--- 14 alema alema  4096 Nov 25 20:36 [01;34m..[0m
+-rw-rw----  1 alema alema  2918 Nov 25 20:37 generador_qmd.py
+-rw-rw----  1 alema alema  2249 Nov 25 20:37 parser_script.py
+-rw-rw-r--  1 alema alema     0 Nov 25 20:50 session.txt
+-rw-rw----  1 alema alema 10313 Nov 25 20:38 shelldoc.py
+-rw-rw----  1 alema alema  1812 Nov 25 20:38 styles.css
+[?2004halema@server:~/proyecto_shell$ ls -la ../lab4[1P[C[C[C[C[C[C[C[C
+[?2004ltotal 24
+-rw-rw-r-- 1 alema alema  379 Oct 23 10:38 01_fork_basico.py
+-rw-rw-r-- 1 alema alema  498 Oct 23 10:46 02_fork_wait.py
+-rw-rw-r-- 1 alema alema  863 Oct 23 10:52 03_huerfano.py
+-rw-rw-r-- 1 alema alema  475 Oct 23 14:38 04_zombie.py
+drwxrwxr-x 3 alema alema 4096 Oct 26 15:13 [0m[01;34mcarpetas_actividad_5[0m
+drwxrwxr-x 4 alema alema 4096 Oct 31 21:48 [01;34mcorrecion_lab[0m
+[?2004halema@server:~/proyecto_shell$ ip -br a
+[?2004l[1;36mlo               [0mUNKNOWN        [1;35m127.0.0.1[0m/8 [1;94m::1[0m/128 
+[1;36menp0s3           [0m[1;32mUP             [0m[1;35m10.0.2.15[0m/24 metric 100 [1;94mfd17:625c:f037:2:a00:27ff:fe54:a90b[0m/64 [1;94mfe80::a00:27ff:fe54:a90b[0m/64 
+[?2004halema@server:~/proyecto_shell$ ps
+[?2004l    PID TTY          TIME CMD
+   1821 pts/0    00:00:00 bash
+   1839 pts/0    00:00:00 ps
+[?2004halema@server:~/proyecto_shell$ ping -c 4 www.google.com
+[?2004lPING www.google.com (142.251.150.119) 56(84) bytes of data.
+64 bytes from 142.251.150.119: icmp_seq=1 ttl=114 time=20.6 ms
+64 bytes from 142.251.150.119: icmp_seq=2 ttl=114 time=38.2 ms
+64 bytes from 142.251.150.119: icmp_seq=3 ttl=114 time=22.0 ms
+64 bytes from 142.251.150.119: icmp_seq=4 ttl=114 time=33.3 ms
+
+--- www.google.com ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3467ms
+rtt min/avg/max/mdev = 20.585/28.526/38.244/7.459 ms
+[?2004halema@server:~/proyecto_shell$ exit
+[?2004lexit
+
+Script done on 2026-11-25 20:52:05-05:00 [COMMAND_EXIT_CODE="0"]
