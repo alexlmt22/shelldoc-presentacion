@@ -44,6 +44,8 @@ drwxrwxr-x 4 alema alema 4096 Oct 31 21:48 [01;34mcorrecion_lab[0m
 4 packets transmitted, 4 received, 0% packet loss, time 3467ms
 rtt min/avg/max/mdev = 20.585/28.526/38.244/7.459 ms
 [?2004halema@server:~/proyecto_shell$ exit
+^[[?20004halema@server:~/proyecto_shell$ echo"Hola ^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K "Hola Nuevo" ^M
+^[[?2004l^MHola Nuevo^M
 [?2004lexit
 
 Script done on 2026-11-25 20:52:05-05:00 [COMMAND_EXIT_CODE="0"]
