@@ -43,8 +43,6 @@ drwxrwxr-x 4 alema alema 4096 Oct 31 21:48 [01;34mcorrecion_lab[0m
 --- www.google.com ping statistics ---
 4 packets transmitted, 4 received, 0% packet loss, time 3467ms^M 
 rtt min/avg/max/mdev = 20.585/28.526/38.244/7.459 ms 
-[?2004halema@server:~/proyecto_shell$ echo "Hola Nuevo
-[?2004lHola Nuevo
 [?2004halema@server:~/proyecto_shell$ exit
 [?2004lexit
 

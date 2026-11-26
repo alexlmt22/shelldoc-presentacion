@@ -320,32 +320,3 @@ PING www.google.com (142.251.150.119) 56(84) bytes of data.
 :::
 
 ::::
-
-## Comando 11: echo "Hola Nuevo
-
-:::: {.columns}
-
-::: {.column width="48%"}
-[Comando]{.col-titulo}
-
-```{.bash filename="terminal"}
-$ echo "Hola Nuevo
-```
-
-[Comando registrado en la sesión Linux.]{.nota}
-:::
-
-::: {.column width="4%"}
-:::
-
-::: {.column width="48%"}
-[Salida]{.col-titulo}
-
-```{.text filename="session.txt"}
-Hola Nuevo
-```
-
-[1 línea de salida conservada.]{.nota}
-:::
-
-::::
