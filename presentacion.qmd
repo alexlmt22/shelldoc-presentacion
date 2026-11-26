@@ -313,11 +313,39 @@ PING www.google.com (142.251.150.119) 56(84) bytes of data.
 64 bytes from 142.251.150.119: icmp_seq=4 ttl=114 time=33.3 ms
 
 --- www.google.com ping statistics ---
-4 packets transmitted, 4 received, 0% packet loss, time 3467ms
-rtt min/avg/max/mdev = 20.585/28.526/38.244/7.459 ms
+4 packets transmitted, 4 received, 0% packet loss, time 3467ms^M 
 ```
 
-[9 líneas de salida conservadas.]{.nota}
+[8 líneas de salida conservadas.]{.nota}
+:::
+
+::::
+
+## Comando 11: echo "Hola Nuevo
+
+:::: {.columns}
+
+::: {.column width="48%"}
+[Comando]{.col-titulo}
+
+```{.bash filename="terminal"}
+$ echo "Hola Nuevo
+```
+
+[Comando registrado en la sesión Linux.]{.nota}
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+[Salida]{.col-titulo}
+
+```{.text filename="session.txt"}
+Hola Nuevo
+```
+
+[1 línea de salida conservada.]{.nota}
 :::
 
 ::::
